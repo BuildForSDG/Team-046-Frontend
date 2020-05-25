@@ -1,0 +1,46 @@
+/* Hero start */
+.hero, .services-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.hero-text {
+  width: 60%;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 3rem;
+}
+.hero-img {
+  width: 40%;
+}
+.hero-img img {
+  width: 100%;
+  height: auto;
+}
+.about-us {
+  padding: 30px 100px;
+  text-align: center;
+}
+.about-us p {
+  font-size: 1.3rem;
+}
+.our-service {
+  text-align: center;
+}
+
+.services-body > div {
+  width: 30%;
+}
+@media screen and (max-width: 870px) {
+  .hero-text,
+  .hero-img,
+  .services-body > div {
+    width: 100%;
+  }
+  .hero-text {
+    padding: 15px;
+  }
+}
